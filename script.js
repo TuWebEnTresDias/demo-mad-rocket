@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const encodedMessage = encodeURIComponent(message);
             const whatsappUrl = `https://wa.me/5491131098445?text=${encodedMessage}`;
             
-            window.open(whatsappUrl, '_blank');
+            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
 
             // Reset form
             contactForm.reset();
